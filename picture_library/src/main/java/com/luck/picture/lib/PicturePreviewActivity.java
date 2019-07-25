@@ -3,8 +3,9 @@ package com.luck.picture.lib;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.Nullable;
-import android.support.v4.view.ViewPager;
+import androidx.annotation.Nullable;
+import androidx.viewpager.widget.ViewPager;
+
 import android.text.TextUtils;
 import android.view.View;
 import android.view.animation.Animation;
@@ -33,6 +34,8 @@ import com.yalantis.ucrop.model.CutInfo;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+
+import static android.app.Activity.RESULT_OK;
 
 /**
  * author：luck
